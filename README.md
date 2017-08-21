@@ -4,7 +4,7 @@
 
 ***
 ### This interview questions for C language is in it's infantile stage and any contribution is welcome!
-<br>:blue_book::book:Do not expect advanced content here since I am doing this while I am learning it!!!
+<br>:school:blue_book::book:Do not expect advanced content here since I am doing this while I am learning it!!!
 
 
 ***
