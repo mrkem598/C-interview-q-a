@@ -22,5 +22,5 @@ Answer: The compiler knows it's a system file and therefor must be looked for in
 ## 3. `stdio` means?
 
 Answer: It stands for standard input output because
-                :white_check_mark:`printf()` is a Standard Output function.
-                :white_check_mark:`scanf()` is a Standard Input function.
+               <br> :white_check_mark:`printf()` is a Standard Output function.
+               <br> :white_check_mark:`scanf()` is a Standard Input function.
