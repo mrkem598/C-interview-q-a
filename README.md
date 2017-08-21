@@ -4,6 +4,7 @@
 
 ***
 ### This interview questions for C language is in it's infantile stage and any contribution is welcome!
+####<br>:blue_book::book:Do not expect advanced content here since I am doing this while I am learning it!!!
 
 
 ***
@@ -24,3 +25,8 @@ Answer: The compiler knows it's a system file and therefor must be looked for in
 Answer: It stands for standard input output because
                <br> :white_check_mark:`printf()` is a Standard Output function.
                <br> :white_check_mark:`scanf()` is a Standard Input function.
+       In short, if we want to use `printf()` in a programme then , we need to include `stdio` header file.
+***
+## 4. If I want to use `getch()`, `clrscr()` etc.. what do I need to include in the header file?
+
+Answer: We need to include `conio` in a header file and similarly if we are using square root function `sqrt()` we need to include `math` in a header file. 
