@@ -30,3 +30,38 @@ Answer: It stands for standard input output because
 ## 4. If I want to use `getch()`, `clrscr()` etc.. what do I need to include in the header file?
 
 Answer: We need to include `conio` in a header file and similarly if we are using square root function `sqrt()` we need to include `math` in a header file. 
+
+***
+## 5. Write a function in C language to generate a prime numbers below 100?
+
+Answer:
+
+```
+
+#include <stdio.h>
+#include <stdlib.h>
+
+main(){
+  int this_number, divisor, not_prime;
+  
+  this_number = 3;
+  
+  while(this_number < 100){
+    divisor = this_number / 2;
+    not_prime = 0;
+    while(divisor > 1) {
+      if(this_number % divisor == 0) {
+              not_prime = 1;
+              divisor = 0;
+      }
+      else
+              divisor = divisor-1;
+    }
+    
+    if(not_prime == 0)
+            printf("%d is a prime number\n", this_number);
+            this_number = this_number + 1;
+  }
+  exit(EXIT_SUCCESS);
+}
+```
