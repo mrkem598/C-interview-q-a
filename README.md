@@ -93,3 +93,55 @@ Answer:
 89 is a prime number
 97 is a prime number
 ```
+***
+## 6.  write a program that prints prime pairs — a pair of prime numbers that differ by 2, for example 11 and 13, 29 and 31?
+
+Answer:
+```
+#include <stdio.h>
+#include <stdlib.h>
+
+main(){
+   int this_number, divisor, not_prime;
+   int last_prime;
+
+   this_number = 3;
+   last_prime = 3;
+
+   printf("1, 3 is a prime pair\n");
+
+   while(this_number < 100){
+      divisor = this_number / 2;
+      not_prime = 0;
+      while(divisor > 1){
+         if(this_number % divisor == 0){
+            not_prime = 1;
+            divisor = 0;
+         }
+         else
+            divisor = divisor-1;
+      }
+
+      if(not_prime == 0){
+         if(this_number == last_prime+2)
+            printf("%d, %d is a prime pair\n",
+               last_prime, this_number);
+         last_prime = this_number;
+      }
+      this_number = this_number + 1;
+   }
+   exit(EXIT_SUCCESS);
+}
+```
+```
+1, 3 is a prime pair
+3, 5 is a prime pair
+5, 7 is a prime pair
+11, 13 is a prime pair
+17, 19 is a prime pair
+29, 31 is a prime pair
+41, 43 is a prime pair
+59, 61 is a prime pair
+71, 73 is a prime pair
+   
+ ```
