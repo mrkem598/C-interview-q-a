@@ -200,3 +200,34 @@ integers: number of windows in a room, number of words in a memory, or the round
 floating numbers: the cost of an item in a store, the precise temperature, and so on
 characters: the four directions specified by 'N', 'S', 'E', or 'W', one's letter grade in a class, or gender ('F' or 'M')
 Booleans: the answer to the questions, "Are you female?" or "Do you wish to contribute to the XYZ fund?"
+
+***
+## 13. Evaluate the results of the following expressions, given the following values for these variables:
+
+      x = true, y = true, z = false
+
+      x && y || z
+      !x && y || z
+  ```    
+  Answer:
+  a. true. This expression is interpreted as
+(x && y) || z
+
+(true && true) || false
+
+(true) || false
+
+true
+```
+b. false. This expression is interpreted as
+((!x) && y) || z
+
+((!true) && true) || false
+
+(false && true) || false
+
+false || false
+
+false
+```
+`
