@@ -186,3 +186,17 @@ If we started following an algorithm that did not terminate, we would never fini
 Answer:
 
 While executing a step, we should know exactly what must be done. If we did not, then there would be no single specific outcome for a particular step. Another good reason is that algorithms are usually translated into computer programs, and computer programs do not leave room for ambiguity.
+***
+## 12. Give one example of a variable of each of the following data types:
+
+integers
+floating numbers
+characters
+Booleans
+Answer:
+These answers are representative of each of the data types.
+
+integers: number of windows in a room, number of words in a memory, or the rounded-off value of the temperature (negative numbers are integers too), and so on
+floating numbers: the cost of an item in a store, the precise temperature, and so on
+characters: the four directions specified by 'N', 'S', 'E', or 'W', one's letter grade in a class, or gender ('F' or 'M')
+Booleans: the answer to the questions, "Are you female?" or "Do you wish to contribute to the XYZ fund?"
