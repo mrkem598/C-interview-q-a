@@ -172,3 +172,17 @@ Answer:
 ## 9. OR is a binary operator and is denoted bu the symbol ||, which is two adjacent pipe symbols. What does `(x || y)` mean?
 
 Answer: The possible output for `(x || Y)` is gonna be true or y is true or both are true.
+
+***
+## 10. Why is termination an important characteristic of an algorithm?
+
+Answer:
+
+If we started following an algorithm that did not terminate, we would never finish executing it!
+
+***
+## 11. Why is clarity an important characteristic of an algorithm?
+
+Answer:
+
+While executing a step, we should know exactly what must be done. If we did not, then there would be no single specific outcome for a particular step. Another good reason is that algorithms are usually translated into computer programs, and computer programs do not leave room for ambiguity.
