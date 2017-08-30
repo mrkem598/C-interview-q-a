@@ -283,7 +283,38 @@ Set z = z ^ 3 ^ 2
 ```
 	Answer:
   
- 
+ ![answer](https://user-images.githubusercontent.com/23619819/29866063-395e19ac-8d45-11e7-912b-59312339a18b.JPG)
 
+***
+## 16. Determine the total number of bits in a memory whose size is specified as 100MB X 32.
+
+Answer
+
+Remember that "B" stands for "byte" (8 bits). So,
+
+100 MB = 100 * 220 * 8 bits 
+              = 100 * 1,048,576 * 8 bits
+
+Thus the 100 MB X 32 memory will contain 100 * 1,048,576 * 8 * 32 or 26,843,545,600 bits.
+***
+## 17. When a variable has just been declared, what initial value does it contain?
+
+Answer:
+
+No proper initial value exists. Using an uninitialized variable will invariably lead to run-time errors.
+***
+## 18. What is the difference between: (a) x == y and (b) x = y?
+
+Answer:
+
+The first, x == y, is a Boolean expression whose answer is always either true or false, whereas the second, x = y, is an assignment statement.
+***
+## 19. What is the difference between an expression and a statement?
+
+Answer:
+
+A statement is the basic unit of execution in a program.
+
+Expressions are usually parts of statements. An expression is something that evaluates to a single valu
 
 
