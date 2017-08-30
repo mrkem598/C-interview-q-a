@@ -145,3 +145,12 @@ main(){
 71, 73 is a prime pair
    
  ```
+***
+## 7. How to add comment in C language?
+
+Answer: We can add comment by using /*..........*/ in C language.
+
+***
+## 8. 
+
+Answer:
