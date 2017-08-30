@@ -151,6 +151,20 @@ main(){
 Answer: We can add comment by using /*..........*/ in C language.
 
 ***
-## 8. 
+## 8. Write variable naming rules?
 
 Answer:
+- name can be any combination of upper and lower case letters(a-z, A-Z), digits(0-9), and the character _ No other characters can be used in a variable name.
+- name must start with a letter
+- blanks are not allowed
+- Upper and lower case are allowed e.g. NUMBER , Number, number, nuMBER are all different.
+- should be descriptive (name need to describe the the information that the variable holds)
+- no restriction on the length of variables but make it short and precise
+- names cannot be reserved words e.g float, this,...
+
+          acceptable e.g. a, b, c, C, SUM, sum, Count, value, Number, x_dot, Salary, Value1, dhgfhL
+          not acceptable e.g. 1ab
+                                             inte rest
+                                             Ca$h
+                                             Amount-of-loan (- not allowed)
+                                             int (reserved word)
