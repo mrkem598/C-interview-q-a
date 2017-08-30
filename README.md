@@ -219,6 +219,7 @@ Booleans: the answer to the questions, "Are you female?" or "Do you wish to cont
 
 true
 ```
+```
 b. false. This expression is interpreted as
 ((!x) && y) || z
 
@@ -230,4 +231,59 @@ false || false
 
 false
 ```
-`
+***
+## 14. Evaluate the results of the following expressions, given the following initial values:
+```
+     x = 23, y = –10, z = 12
+
+A. x % z
+B. x + y*z
+C. x/y*z
+D. z % z
+```
+Answer: 
+```
+A. 11
+
+x % z
+23 % 12
+23/12 = 1 with a remainder of 11
+```
+```
+B. –97 
+
+The expression is interpreted as
+
+x + (y * z)
+23 + (–10 x 12)
+23 + (–120)
+–97
+```
+C. –27.6
+
+x / y * z
+23/–10 x 12       (remember that / and * are left associative)
+–2.3 x 12
+–27.6
+```
+D. 0
+z % z
+12 % 12
+12/12 = 1 with a remainder of 0
+```
+***
+## 15. Starting with the following initial values, specify the value of each variable at the end of each step, in the following pseudocode.
+```
+x = 10, y = 20, z = 30
+Set x = x + 20 
+Set y = y * x 
+Set y = y % z + x 
+Set z = z – 20 
+Set z = z ^ 3 ^ 2
+```
+	Answer:
+  
+ 
+
+
+
