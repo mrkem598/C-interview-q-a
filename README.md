@@ -168,3 +168,7 @@ Answer:
                                              Ca$h
                                              Amount-of-loan (- not allowed)
                                              int (reserved word)
+***
+## 9. OR is a binary operator and is denoted bu the symbol ||, which is two adjacent pipe symbols. What does `(x || y)` mean?
+
+Answer: The possible output for `(x || Y)` is gonna be true or y is true or both are true.
