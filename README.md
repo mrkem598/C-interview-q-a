@@ -317,14 +317,7 @@ A statement is the basic unit of execution in a program.
 
 Expressions are usually parts of statements. An expression is something that evaluates to a single valu
 
-***
-## 20. Write a C program that add num1 AND num2 to yield sum?
 
-Answer:
-```
-#include<stdio.h>
-
-int main() {
 	
 	int num1, num2, sum;
 	sum = num1 + num2;
@@ -342,7 +335,30 @@ int main() {
 
 ```
 
+***
+## 21. Write a C program to find area and circumference of a circle?
+
+Answer:
+```
+#include<stdio.h>
+
+int main() {
+
+	int rad;
+	float PI = 3.14, area, ci;
+	
+	printf("\nEnter your radius : ");
+	scanf("%d", &rad);
+	
+	area = PI * rad * rad;
+	printf("\nArea of the circle is : %f ", area);
+	
+	ci = 2 * PI * rad;
+	printf("\nCircumference : %f ", ci);
+	return 0;
+}
+```
 
 
-A statement is the basic unit of execution in a program.
+
 
