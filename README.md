@@ -387,6 +387,10 @@ Answer:
     return 0;
   }
 ```
+```
+<img width="737" alt="screen shot 2017-09-06 at 8 44 21 pm" src="https://user-images.githubusercontent.com/23619819/30140685-5212536e-9344-11e7-9fbb-eed94392889e.png">
+
+```
 
 
 
