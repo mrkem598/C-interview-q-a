@@ -333,7 +333,6 @@ Expressions are usually parts of statements. An expression is something that eva
 	
 }
 
-```
 
 ***
 ## 21. Write a C program to find area and circumference of a circle?
@@ -358,14 +357,13 @@ int main() {
 	return 0;
 }
 ```
+
 ***
 ## 22. Create a program that can add up the number of coins(penny, nickle, dime, quarter);
-
 Answer:
 
-```
-#include<stdio.h>
-  int main() {
+ #include<stdio.h>
+   int main() {
     /*variable defination*/
     int penny, nickle, dime, quarter;
     float coinTotal;
@@ -384,14 +382,10 @@ Answer:
     printf("\nThe total coint you entered is : %f", coinTotal);
     return 0;
   }
-```
 
 <img width="737" alt="screen shot 2017-09-06 at 8 44 21 pm" src="https://user-images.githubusercontent.com/23619819/30140685-5212536e-9344-11e7-9fbb-eed94392889e.png">
 
-
-***
-## 23. Calculate the perimeter of the triangle? And explain your program in detail? 
-***
+## 22. Calculate the perimeter of the triangle? And explain your program in detail? 
 
 Answer: 
 I have written, the C code for calculating the perimeter of the triangle as follow. I have used float point to inter the sides of the triangle and the base. The perimeter will be a float number.
