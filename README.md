@@ -393,10 +393,10 @@ Answer:
 ```
 ***
 ## 23. Calculate the perimeter of the triangle? And explain your program in detail? 
+***
 
 Answer: 
 I have written, the C code for calculating the perimeter of the triangle as follow. I have used float point to inter the sides of the triangle and the base. The perimeter will be a float number.
-
 ![image](https://user-images.githubusercontent.com/23619819/30174977-ea483280-93ca-11e7-821e-3c077929d1a7.png)
 
 
