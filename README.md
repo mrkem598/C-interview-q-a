@@ -393,5 +393,8 @@ I have written, the C code for calculating the perimeter of the triangle as foll
 ![image](https://user-images.githubusercontent.com/23619819/30174977-ea483280-93ca-11e7-821e-3c077929d1a7.png)
 
 
+***
+## 23. What is this line of code doing? scanf(“%f”, &height);
 
+Answer:The scanf get value from stdin and put in variables named. This line of code is where we can input the height from the user. The letter f stands for inputting a float number and if we want to input integers we can simply change it to %d.
 
