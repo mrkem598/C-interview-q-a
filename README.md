@@ -365,9 +365,7 @@ Answer:
 
 ```
 #include<stdio.h>
-
   int main() {
-
     /*variable defination*/
     int penny, nickle, dime, quarter;
     float coinTotal;
