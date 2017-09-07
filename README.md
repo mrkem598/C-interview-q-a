@@ -358,7 +358,35 @@ int main() {
 	return 0;
 }
 ```
+***
+## 22. Create a program that can add up the number of coins(penny, nickle, dime, quarter);
 
+Answer:
+
+```
+#include<stdio.h>
+
+  int main() {
+
+    /*variable defination*/
+    int penny, nickle, dime, quarter;
+    float coinTotal;
+    /*prompt for input*/
+    printf("\nEnter the number of penny : ");
+    scanf("%d", &penny);
+    printf("\nEnter the number of nickle you have : ");
+    scanf("%d", &nickle);
+    printf("\nEnter the number of dime you have : ");
+    scanf("%d", &dime);
+    printf("\nEnter the number of quarter you have : ");
+    scanf("%d", &quarter);
+    /*formula to add coin*/
+    coinTotal = (penny * 0.01) + (nickle * 0.50) + (dime * 0.10) + (quarter * 0.25);
+    /*print out the total*/
+    printf("\nThe total coint you entered is : %f", coinTotal);
+    return 0;
+  }
+```
 
 
 
