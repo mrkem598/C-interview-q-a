@@ -412,3 +412,9 @@ int main() {
 	
 	da = (10 * basic) / 100;
 	ta = (12 * basic) /100;
+	
+	gross_salary = basic + da + ta;
+	
+	printf("\nGross salary : %d", gross_salary);
+	return 0;
+}
