@@ -398,3 +398,17 @@ I have written, the C code for calculating the perimeter of the triangle as foll
 
 Answer:The scanf get value from stdin and put in variables named. This line of code is where we can input the height from the user. The letter f stands for inputting a float number and if we want to input integers we can simply change it to %d.
 
+***
+## 23. Write a program to calculate the gross salary of a person?
+
+Answer:
+```
+#include<stdio.h>
+int main() {
+	int gross_salary, basic, da, ta;
+	
+	printf("Enter basic salary : ");
+	scanf("%d", &basic);
+	
+	da = (10 * basic) / 100;
+	ta = (12 * basic) /100;
