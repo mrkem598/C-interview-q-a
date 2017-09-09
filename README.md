@@ -418,3 +418,4 @@ int main() {
 	printf("\nGross salary : %d", gross_salary);
 	return 0;
 }
+```
