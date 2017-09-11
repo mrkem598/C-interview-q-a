@@ -419,3 +419,8 @@ int main() {
 	return 0;
 }
 ```
+***
+## 24. Using C program add two numbers, namely num1 and num2 to print out the result?
+Answer:
+```
+
