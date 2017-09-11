@@ -422,7 +422,6 @@ int main() {
 ***
 ## 24. Using C program add two numbers, namely num1 and num2 to print out the result?
 Answer:
-```
+
 <img width="523" alt="screen shot 2017-09-10 at 8 34 26 pm" src="https://user-images.githubusercontent.com/23619819/30254580-e56999de-9668-11e7-90c9-5b6530e09812.png">
 
-```
