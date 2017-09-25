@@ -492,7 +492,7 @@ int main () {
 ## 26. Create a program to determin wheter you can drive or not by entering your age??
 
 Solution:
-`
+```
 // C code
 // This program will ask your age and determin to drive nor not.
 // Developer: Mohammed Kemal
@@ -526,4 +526,4 @@ int main(){
       } 
     return 0;
 }
-`
+```
