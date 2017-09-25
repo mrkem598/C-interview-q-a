@@ -488,3 +488,42 @@ int main () {
 }
 
 ```
+***
+## 26. Create a program to determin wheter you can drive or not by entering your age??
+
+Solution:
+`
+// C code
+// This program will ask your age and determin to drive nor not.
+// Developer: Mohammed Kemal
+// Date: Sep 24, 2017
+#include <stdio.h>
+int main(){
+        //declaring variable
+        int age;
+        //prompt the user to enter age
+        printf("\nEnter your age to determin whether you can drive or not?");
+        while (scanf("%d", &age) !=EOF) {
+        // when the age below the cut point let them know they are to Young  
+          if( age  < 16 && age > 0) 
+          {
+            printf("\nToo Young To Drive Car!");
+        // Otherwise let them know too old to drive or too young
+          }
+          else if( age > 80)
+          {
+            printf("\nToo old to drive car!");
+          }
+          else if (age < 0 )
+          {
+            printf("\nYou need to enter positive number!");
+          }
+          else
+          {
+            printf("\nYou can drive!");
+          }
+            printf("Enter another age, or CTRL Z to exit.\n\n");
+      } 
+    return 0;
+}
+`
